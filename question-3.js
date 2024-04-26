@@ -5,6 +5,8 @@ function authenticateUser(username, password) {
   const validPassword = "securepass";
 
   // เริ่มเขียนโค้ดตรงนี้
+  
+  return username == validUsername && password === validPassword ? console.log("Login successful") : console.log("Login failed. Please check your username and password");
 }
 
 // ตัวอย่างการใช้งาน
